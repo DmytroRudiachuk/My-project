@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="./bootstrap-3.3.7-dist/css/bootstrap.css">
 
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
-    <link rel="stylesheet" type="text/css" href="./css/mobile.css">
-    <title>Document</title>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" type="text/css" href="./bootstrap-3.3.7-dist/css/bootstrap.css">
+
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/mobile.css">
+	<title>Document</title>
 </head>
+
 <body>
 	<div class="wrapper">
 		<div class="header">
 			<div class="leftSide">
-				<a href="">Головна</a>
-				<a href="">Сповіщення</a>
-				<a href="">Повідомлення</a>
+				<nav class="navbar navbar-default navbar-fixed-top">
+					<div class="container">	
+						<button class="btn btn-default">Головна</button>
+						<button class="btn btn-default">Сповіщення</button>
+						<button class="btn btn-default">Повідомлення</button>	
+						<img src="./img/logo.png" class="img-circle">
+					</div>
+				</nav>
 			</div>
 			<div class="rightSide">
 				<input type="text" name="search" placeholder="Пошук">
@@ -33,20 +40,20 @@
 				<div>
 					<a href="">Твіти</a>
 					<a href="">Читають</a>
-				</div>				
+				</div>
 			</div>
 			<div class="bigBlog">
-				<div>				
+				<div>
 					<input type="text" name="yourTwit" placeholder="Що нового?">
 				</div>
 				<div>
 					<a href="#">Name user</a>
 					<textarea name="anotherTwit" rows="10" cols="30" placeholder="Ваш пост">			
-					</textarea>					
+					</textarea>
 					<a href="#">Answer</a>
 					<a href="#">Tell about</a>
 					<a href="#">Like</a>
-				</div>		
+				</div>
 			</div>
 		</div>
 		<div class="Recommended subscriptions">
@@ -58,4 +65,5 @@
 
 	<script type="text/javascript" src="./script/index.js"></script>
 </body>
+
 </html>
